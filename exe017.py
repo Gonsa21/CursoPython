@@ -1,6 +1,6 @@
 import math
-co = float(input('Digite o valor do cateter oposto: '))
-ca = float(input('Digite o valor do cateter adjacente: '))
+co = float(input('Digite o valor do cateto oposto: '))
+ca = float(input('Digite o valor do cateto adjacente: '))
 rco = math.pow(co, 2)
 rca = math.pow(ca, 2)
 result = math.sqrt(rco + rca)
